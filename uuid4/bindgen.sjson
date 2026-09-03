@@ -1,0 +1,9 @@
+package_name = "uuid4"
+inputs = [
+	"original/src"
+]
+output_folder = "target"
+remove_type_prefix = "UUID4_"
+remove_macro_prefix = "UUID4_"
+remove_function_prefix = "uuid4_"
+import_lib = "libuuid4.a"
