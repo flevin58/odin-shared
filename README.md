@@ -6,7 +6,9 @@ Using this library has its challenges, so I decided to automate the process by u
 Note: Since I am using also Rust bindgen, I decided to use a dedicated env variable $OBINDGEN to differentiate them apart.
 You will need to set the $OBINDGEN env to the path where you installed the software.
 Example:
+```code
 export OBINDGEN=~/.local/bin/bindgen
+```
 
 ## Repository structure
 In this repository I am collecting a series of "c" libraries to be used with Odin.
